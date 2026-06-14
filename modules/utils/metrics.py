@@ -1,9 +1,6 @@
 from qa_metrics.transformerMatcher import TransformerMatcher
 from qa_metrics.em import em_match
-# NOTE: For more information on qa-metrics, see https://github.com/zli12321/qa_metrics
 
-
-# THIS IS ALREADY IMPLEMENTED!
 
 class Matching:
     """
