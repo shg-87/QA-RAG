@@ -12,13 +12,7 @@ try:
 except ImportError:
     from .text_processing import process_text
 
-# TODO: You will need to implement:
-#  - BagOfWords._tokenize()
-#  - BagOfWords.fit()
-#  - BagOfWords.transform()
 
-# NOTE: Efficiency is not the primary goal here; nevertheless,
-#       using :class:`collections.Counter` is recommended.
 
 # Keep preprocessing lightweight and deterministic.
 nltk.download("stopwords", quiet=True)
