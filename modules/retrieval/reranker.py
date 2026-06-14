@@ -9,11 +9,6 @@ from sklearn.metrics import pairwise_distances
 import torch
 import numpy as np
 
-# TODO: You will need to implement: 
-#  - Reranker.cross_encoder_rerank()
-#  - Reranker.tfidf_rerank()
-#  - Reranker.bow_rerank()
-#  - Reranker.sequential_rerank()
 
 
 class Reranker:
