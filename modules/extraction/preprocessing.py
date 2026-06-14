@@ -2,8 +2,7 @@ from typing import List
 
 import nltk
 
-# TODO: You will need to implement:
-# - DocumentProcessing.fixed_length_chunking()
+
 
 
 class DocumentProcessing:
