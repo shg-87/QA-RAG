@@ -3,8 +3,6 @@ from sentence_transformers import SentenceTransformer
 # For more information on sentence_transformer package, refer to https://sbert.net/
 # For list of models refer to: https://sbert.net/docs/sentence_transformer/pretrained_models.html
 
-# THIS IS ALREADY IMPLEMENTED!
-
 class Embedding:
     """
     A class used to encode sentences into embeddings using a specified pre-trained model.
