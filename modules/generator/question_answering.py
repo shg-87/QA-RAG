@@ -5,7 +5,6 @@ from typing import List, Tuple, Union
 
 from mistralai import Mistral
 
-# THIS IS ALREADY IMPLEMENTED!
 
 class QAGeneratorMistral:
     """
