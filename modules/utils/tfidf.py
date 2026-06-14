@@ -13,13 +13,6 @@ try:
 except ImportError:
     from .text_processing import process_text
 
-# TODO: You will need to implement:
-#  - TF_IDF._tokenize()
-#  - TF_IDF.fit()
-#  - TF_IDF.transform()
-
-# NOTE: Efficiency is not the primary goal here; nevertheless,
-#       using :class:`collections.Counter` is recommended.
 
 nltk.download("stopwords", quiet=True)
 STOP_WORDS = set(stopwords.words("english"))
