@@ -4,7 +4,6 @@ import nltk
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 nltk.download('wordnet')
 
-# THIS IS ALREADY IMPLEMENTED!
 
 def process_text(text, use_stemming=False, use_lemmatization=False):
     """
