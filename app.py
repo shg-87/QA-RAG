@@ -13,11 +13,7 @@ from textwave.modules.extraction.preprocessing import DocumentProcessing
 from textwave.modules.extraction.embedding import Embedding
 from textwave.modules.retrieval.reranker import Reranker
 
-# TODO: Add your import statements
 
-# TODO: You will need to implement:
-# - initialize_index()
-# - generate_answer()
 
 app = Flask(__name__)
 
